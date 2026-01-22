@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #f8fafc;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+/* LEFT PANEL */
+.login-panel {
+    width: 40%;
+    padding: 70px;
+    background: white;
+}
+
+.login-panel h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.sub {
+    color: #6b7280;
+    margin-bottom: 35px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #374151;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    outline: none;
+}
+
+input:focus {
+    border-color: #7c3aed;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6d28d9;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* RIGHT PANEL */
+.image-panel {
+    width: 60%;
+    background: linear-gradient(135deg, #7c3aed, #a78bfa);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.overlay {
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.overlay p {
+    font-size: 16px;
+    opacity: 0.9;
+}

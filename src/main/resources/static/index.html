@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Secure Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main">
+    <!-- LEFT LOGIN PANEL -->
+    <div class="login-panel">
+        <h2>Welcome back</h2>
+        <p class="sub">AI Brute Force Detection System</p>
+
+        <label>Registration Number</label>
+        <input type="text" id="regNo" placeholder="Enter reg no">
+
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter password">
+
+        <button onclick="login()">Sign In</button>
+
+        <p id="result"></p>
+    </div>
+
+    <!-- RIGHT ILLUSTRATION PANEL -->
+    <div class="image-panel">
+        <div class="overlay">
+            <h1>Secure<br>Authentication</h1>
+            <p>AI-powered brute-force protection</p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
